@@ -11,6 +11,7 @@ public class myname {
         Scanner sce = new Scanner(System.in);
         int numb = sce.nextInt();
 
+
         int rev = 0;
         while (numb!=0){
             rev = rev*10 + numb%10;
